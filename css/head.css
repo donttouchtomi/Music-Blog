@@ -73,7 +73,7 @@ nav ul li a {
 ul {
     /* border: 1px solid; */
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
     list-style-type: none;
     gap: 5rem;
