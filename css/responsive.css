@@ -1,0 +1,11 @@
+@media (max-width: 1000px){
+    .one, .subHead {
+        display: none;
+    }
+    .btn {
+        display: none;
+    }
+    .head {
+        /* background-color: white; */
+    }
+}
