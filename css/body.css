@@ -6,20 +6,26 @@
 
 .container{
     margin: 0 auto;
-    /* flex-basis: 100vh; */
-    /* border: 1px solid; */
     display: grid;
-    gap: 3rem;
-    grid-template-columns: 250px 550px 300px;
+    gap: 2rem;
+    grid-template-columns: minmax(180px, 250px) minmax(500px, 550px)minmax(250px, 300px);
+    grid-auto-columns: 700px;
     grid-template-rows: 0fr;
-    /* grid-template-rows: 1fr 1fr; */
 }
 
 .no{
+    padding: 20px;
     background-color: aqua;
 }
 
+.no4 {
+    margin-top: -100px;
+    grid-column: span 2;
+    height: 250px;
+}
+
 .no1 , .no3 {
+    /* background-color: blanchedalmond; */
     margin-top: 20px;
 }
 
@@ -29,4 +35,8 @@
 
 .no3 {
     height: 600px;
+}
+
+.no1 > img {
+    width: 225px;
 }
