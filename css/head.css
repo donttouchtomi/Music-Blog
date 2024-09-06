@@ -85,7 +85,7 @@ ul {
     /* flex-wrap: wrap; */
     align-items: center;
     list-style-type: none;
-    gap: 3.5rem;
+    gap: 3rem;
     margin:0  auto;
     letter-spacing: 0.044rem;
 }
@@ -94,7 +94,7 @@ ul li a {
     color: #4c5167;
     text-decoration: none;
     font-weight: 600;
-    font-size: 0.9375rem;
+    font-size: 0.84375rem;
     line-height: 1.1875rem;
 }
 

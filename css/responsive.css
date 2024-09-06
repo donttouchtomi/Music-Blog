@@ -6,8 +6,19 @@
         display: none;
     }
     .container {
-        display: block;
+        display: inline-flex;
+        flex-direction: column;
         margin: 0;
         gap: 10px;
+    }
+    .content_two {
+        order: -1;
+    }
+    .content_four {
+        order: -1;
+        margin-top: 0;
+    }
+    .two {
+        /* flex-wrap: wrap; */
     }
 }
