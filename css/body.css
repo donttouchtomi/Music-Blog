@@ -16,9 +16,9 @@ body {
     grid-template-rows: 0fr;
 }
 
-.content {
+/* .content {
     border: 1px solid;
-}
+} */
 
 .content_one, .content_three{
     margin-top: 20px;
@@ -73,14 +73,14 @@ body {
     position: relative;
 }
 .main_img > img{
-    object-fit: contain;
+    object-fit: cover;
     width: 100%;
     height: 550px;
 }
 .main_info {
     margin: 20px ;
     position: absolute;
-    bottom: 0;
+    top: 0;
 }
 .main_info > h2 {
     background-color: #1a48c4;
