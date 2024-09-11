@@ -19,6 +19,6 @@
         margin-top: 0;
     }
     .two {
-        /* flex-wrap: wrap; */
+        flex-wrap: wrap;
     }
 }
