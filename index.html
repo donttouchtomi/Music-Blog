@@ -16,18 +16,19 @@
 
 <body>
     <!-- first heading -->
-    <div class="head">
+    <header class="head">
         <img width="30px" src="./img/PNG Files/list.png" alt="">
         <img id="logo" width="15%" src="./img/PNG Files/Billboard_logo.svg.png" alt="">
         <div class="btn">
             <button class="loginBtn">LOGIN</button>
             <button class="subscribeBtn">SUBSCRIBE</button>
         </div>
-    </div>
+    </header>
     <!-- second heading -->
-    <div class="head one">
+    <nav class="head one">
         <img class="subHead_img" width="20px" src="./img/PNG Files/search.png" alt="">
-        <nav>
+        <!-- navigation bar 1 -->
+        <div class="navBar">
             <ul>
                 <li>
                     <a href="#">Charts</a>
@@ -48,11 +49,13 @@
                     <a href="#">Business</a>
                 </li>
             </ul>
-        </nav>
+        </div>
+        <!-- invisible btn -->
         <button style="visibility: hidden;">SUBSCRIBE</button>
-    </div>
+    </nav>
     <!-- subheading -->
-    <div class="subHead">
+     <!-- navigation bar 2 -->
+    <nav class="subHead">
         <ul>
             <li>
                 <a href="">Billboard Hot 100</a>
@@ -76,11 +79,13 @@
                 <button class="subscribeBtn">Espanol</button>
             </li>
         </ul>
-    </div>
+    </nav>
     <!-- Main contents -->
-    <div class="section">
-        <div class="container">
-            <div class=" content content_one">
+    <main class="section">
+        <!-- sections -->
+        <section class="container">
+            <!-- left news -->
+            <aside class=" content content_one">
                 <div class="news_img">
                     <img src="./img/Body Image/Space.jpg" alt="">
                     <div class="news_info">
@@ -104,8 +109,9 @@
                         </p>
                     </div>
                 </div>
-            </div>
-            <div class="content content_two">
+            </aside>
+            <!-- main news -->
+            <section class="content content_two">
                 <div class="main_img">
                     <img src="./img/Body Image/SZA SOS Album.jpg" alt="">
                     <div class="main_info">
@@ -116,9 +122,9 @@
                             She released her self-released debut EP, See.SZA.Run in October 2012. </p>
                     </div>
                 </div>
-
-            </div>
-            <div class="content content_three">
+            </section>
+            <!-- Right news -->
+            <aside class="content content_three">
                 <h2>Latest News</h2>
                 <h4><a href="#">VIEW MORE</a></h4>
                 <div class="more_news">
@@ -150,8 +156,9 @@
                             Marta’</a></p>
                     <p>4 mins ago</p>
                 </div>
-            </div>
-            <div class="content content_four">
+            </aside>
+            <!-- Music charts -->
+            <section class="content content_four">
                 <div class="chart_heading">
                     <h1>HOT 100</h1>
                     <p>WEEK OF SEPTEMBER 2021</p>
@@ -192,16 +199,18 @@
                         <li>Hot Trending</li>
                     </ul>
                 </div>
-            </div>
-            <div class="content content_five">
+            </section>
+            <!-- editor picks -->
+            <section class="content content_five">
                 <h2 style="font-size: 2.5rem;">Editor Picks</h2>
                 <div class="content_five_flex">
                     <div class="enlarge"><img src="./img/Body Image/Lil Nas X.jpg" width="225px" alt=""></div>
                     <div class="enlarge"><img src="./img/Body Image/Jorja Smith.jpg" width="225px" alt=""></div>
                     <div class="enlarge"><img src="./img/Body Image/Rihanna.jpg" width="225px" alt=""></div>
                 </div>
-            </div>
-            <div class="content content_three ii">
+            </section>
+            <!-- trending -->
+            <aside class="content content_three ii">
                 <h2>Latest News</h2>
                 <h4><a href="#">VIEW MORE</a></h4>
                 <div class="more_news">
@@ -233,11 +242,11 @@
                             Marta’</a></p>
                     <p>4 mins ago</p>
                 </div>
-            </div>
-        </div>
+            </aside>
+        </section>
 
         <!-- <video src="" controls autoplay ></video> -->
-    </div>
+    </main>
 </body>
 
 </html>
