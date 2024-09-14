@@ -15,10 +15,10 @@ body {
     grid-template-columns: minmax(180px, 200px) minmax(500px, 550px)minmax(250px, 300px);
     grid-template-rows: 0fr;
 }
-/* 
+
 .content {
     border: 1px solid;
-} */
+}
 
 .content_one, .content_three{
     margin-top: 20px;
