@@ -16,9 +16,9 @@ body {
     grid-template-rows: 0fr;
 }
 
-.content {
+/* .content {
     border: 1px solid;
-}
+} */
 
 .content_one, .content_three{
     margin-top: 20px;
