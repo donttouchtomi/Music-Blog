@@ -6,10 +6,17 @@
         display: none;
     }
     .container {
-        display: inline-flex;
+        display: flex;
         flex-direction: column;
         margin: 0;
         gap: 10px;
+    }
+    /* .content_one {
+        border: 1px solid black;
+        max-width: 300px;
+    } */
+    .content_three {
+        max-width: 300px;
     }
     .content_two {
         order: -1;
@@ -17,6 +24,24 @@
     .content_four {
         order: -1;
         margin-top: 0;
+        /* overflow: scroll; */
+    }
+    .chart_more_option ul{
+        padding: 10px 0;
+        overflow-y: hidden;
+        overflow-x: scroll;
+    }
+    .chart_more_option ul::-webkit-scrollbar {
+        display: none;
+    }
+    .chart_container {
+        padding: 10px 5px;
+        overflow-y: hidden;
+        overflow-x: scroll;
+        gap: 20px;
+    }
+    .chart_container::-webkit-scrollbar {
+        display: none;
     }
     .two {
         flex-wrap: wrap;

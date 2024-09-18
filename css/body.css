@@ -187,7 +187,7 @@ body {
 
 .charts>img {
     margin: 10px auto;
-    max-width: 125px;
+    width: 125px;
     border-radius: 50%;
 }
 
@@ -233,6 +233,8 @@ body {
     color: #1a48c4;
     font-weight: 700;
     cursor: pointer;
+    text-align: center;
+    /* width: 150px; */
 }
 
 .chart_more_option {
@@ -264,7 +266,7 @@ body {
 }
 
 .content_five_img {
-    max-width: 225px
+    width: 225px;
 }
 .content_five_img > img {
     object-fit: cover;
