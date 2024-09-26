@@ -11,6 +11,10 @@
         margin: 0;
         gap: 10px;
     }
+
+    .content_four, .content_one, .content_three, .content_five{
+        margin: 0 5px;
+    }
     /* .content_one {
         border: 1px solid black;
         max-width: 300px;
