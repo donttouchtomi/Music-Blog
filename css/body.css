@@ -31,8 +31,7 @@ body {
     height: 550px;
 }
 
-.content_three,
-.content_six {
+.content_three{
     height: 600px;
     padding: 10px 20px;
     border-top: 10px solid #1a48c4;
@@ -48,12 +47,11 @@ body {
 .content_five {
     gap: 25px;
     grid-column: span 2;
-    height: 480px;
 }
 
 .content_six {
-    padding: 0;
-    height: 500px;
+    border-top: 10px solid #1a48c4;
+    background-color: white;
 }
 
 /* Content contents styling */
@@ -131,6 +129,11 @@ body {
 }
 
 /* Content Three contents */
+.content_three>h2 {
+    display: inline;
+    font-weight: 800;
+}
+
 .content_three h4 {
     display: inline;
     font-size: 0.625rem;
@@ -169,21 +172,18 @@ body {
 }
 
 /* Content four contents */
-.content_three>h2 {
-    display: inline;
-    font-weight: 800;
-}
+
 
 .chart_container {
     /* border: 1px solid; */
     display: flex;
+    /* width: 100px; */
     /* flex-wrap: wrap; */
 }
 
 .charts {
-    transition: 1s all;
+    /* transition: 1s all; */
     width: 200px;
-    /* height: 225px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -195,10 +195,6 @@ body {
     margin: 10px auto;
     width: 125px;
     border-radius: 50%;
-}
-
-.charts:hover {
-    transform: scale(1.05);
 }
 
 .chart_heading {
@@ -275,7 +271,7 @@ body {
 .content_five_img {
     background-color: #ffffff;
     /* border: 1px solid black; */
-    width: 225px;
+    width: 32.3%;
 }
 
 .content_five_img>img {
@@ -331,6 +327,8 @@ body {
     font-size: 0.8125rem;
     margin: 0 20px;
     display: block;
+    font-weight: 800;
+    color: #1a48c4;
 }
 
 .vertical {
@@ -376,7 +374,7 @@ body {
 .videoOneText p {
     display: block;
     font-size: 31px;
-    max-width: 550px;
+    width: 550px;
     color: white;
 }
 
