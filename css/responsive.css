@@ -135,23 +135,9 @@
     }
 
     .chart_more_option {
-        padding: 0;
-        margin: 0;
+display: none;
     }
 
-    .chart_more_option ul  {
-        padding: 0 10px;
-        justify-content:flex-start;
-        overflow-y: hidden;
-        overflow-x: scroll;
-        align-items: normal;
-        /* width: 200%; */
-    }
-
-    .chart_more_option ul li {
-        font-size: 18px;
-        border: 1px solid black;
-    }
 
     .content_five_flex {
         display: block;

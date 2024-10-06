@@ -240,9 +240,26 @@ body {
 }
 
 .chart_more_option {
-display: none;
+    border-top: 1px solid rgb(204, 204, 204);
+    padding: 20px 0;
+    margin: 20px;
+    margin-bottom: 0;
 }
 
+.chart_more_option ul {
+    list-style: square;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    /* width: 100%; */
+}
+
+.chart_more_option ul li {
+    font-size: 0.8125rem;
+    font-weight: 700;
+
+}
 
 /* Content five contents */
 .content_five>h2 {
