@@ -4,324 +4,359 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- custom css links -->
     <link rel="stylesheet" href="./css/head.css">
     <link rel="stylesheet" href="./css/body.css">
     <link rel="stylesheet" href="./css/responsive.css">
+
+    <!-- custom fonts link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+
+    <!-- custom favicon -->
     <link rel="icon" type="image/x-icon" href="img/PNG Files/MoreLife Favico.png">
-    <title>MoreLife</title>
+    <title>MoreLife Music Blog</title>
 </head>
 
 <body>
-    <!-- first heading -->
-    <header class="head">
-        <img width="30px" id="hamburger" src="./img/PNG Files/list.png" alt="">
-        <img id="logo" width="10%" src="./img/PNG Files/MoreLife II.png" alt="">
-        <div class="btn">
-            <button class="loginBtn">LOGIN</button>
+    <!-- header section begins -->
+    <header>
+        <!-- first header -->
+        <div class="first-header">
+
+            <div class="icons">
+                <i class="fas fa-bars" id="menu"></i>
+                <i class="fas fa-search" id="search"></i>
+                <div class="search-form">
+                    <input type="text" id="search-btn" placeholder="Search Here">
+                    <label for="search-btn" class="fas fa-search"></label>
+                </div>
+            </div>
+
+            <img class="logo" src="./img/PNG Files/MoreLife.svg" alt="">
+
+            <div class="btn">
+                <button class="loginBtn">LOGIN</button>
+                <button class="subscribeBtn">SUBSCRIBE</button>
+            </div>
+        </div>
+
+        <!-- second header -->
+        <div class="second-header">
+            <nav class="navBar">
+                <a href="#charts">Charts</a>
+                <a href="#music">Music</a>
+                <a href="#video">Video</a>
+                <a href="#shop">Shop</a>
+                <a href="#awards">Awards</a>
+                <a href="#business">Business</a>
+            </nav>
+        </div>
+
+        <!-- third header -->
+        <div class="third-header">
+            <nav class="navBar">
+                <a href="">MoreLife Hot 100</a>
+                <a href="">Songs Of The Summer</a>
+                <a href="">Latin Music Week</a>
+                <a href="">Get Up Anthems by Tres</a>
+                <a href="">TikTok MoreLife Top 50</a>
+                <a href="">Global News</a>
+                <button class="subscribeBtn">Espanol</button>
+            </nav>
+        </div>
+
+        <!-- responsive header -->
+
+        <div class="responsive-header">
+
+            <img src="./img/PNG Files/MoreLife.svg" alt="">
+
+            <nav class="navBar">
+                <a href="#charts">Charts</a>
+                <a href="#music">Music</a>
+                <a href="#video">Video</a>
+                <a href="#shop">Shop</a>
+                <a href="#awards">Awards</a>
+                <a href="#business">Business</a>
+            </nav>
+
             <button class="subscribeBtn">SUBSCRIBE</button>
         </div>
     </header>
-    <!-- second heading -->
-    <nav class="head one" id="hamburgerMenu">
-        <img class="subHead_img" width="20px" src="./img/PNG Files/search.png" alt="">
-        <!-- navigation bar 1 -->
-        <div class="navBar">
-            <ul>
-                <li>
-                    <a href="#">Charts</a>
-                </li>
-                <li>
-                    <a href="#">Music</a>
-                </li>
-                <li>
-                    <a href="#">Video</a>
-                </li>
-                <li>
-                    <a href="#">Shop</a>
-                </li>
-                <li>
-                    <a href="#">Awards</a>
-                </li>
-                <li>
-                    <a href="#">Business</a>
-                </li>
-            </ul>
-        </div>
-        <!-- invisible btn -->
-        <button style="visibility: hidden;">SUBSCRIBE</button>
-    </nav>
-    <!-- subheading -->
-    <!-- navigation bar 2 -->
-    <nav class="subHead">
-        <ul>
-            <li>
-                <a href="">MoreLife Hot 100</a>
-            </li>
-            <li>
-                <a href="">Songs Of The Summer</a>
-            </li>
-            <li>
-                <a href="">Latin Music Week</a>
-            </li>
-            <li>
-                <a href="">Get Up Anthems by Tres</a>
-            </li>
-            <li>
-                <a href="">TikTok MoreLife Top 50</a>
-            </li>
-            <li>
-                <a href="">Global News</a>
-            </li>
-            <li>
-                <button class="subscribeBtn">Espanol</button>
-            </li>
-        </ul>
-    </nav>
-    <!-- Main contents -->
-    <main class="sectionOne">
-        <!-- sections -->
-        <section class="container">
-            <!-- left news -->
-            <aside class="content content_one">
-                <div class="left_news_img">
-                    <img src="./img/Body Image/Space.jpg" alt="">
-                    <div class="left_news_info">
-                        <h2>
-                            Chart Beat
-                        </h2>
-                        <p>
-                            Coldplay Tops July Boxscore Report As Tour Surpasses $1 Billion in Grosses
-                        </p>
-                    </div>
-                </div>
-                <div class="left_news_img">
-                    <img width="200px" src="./img/Body Image/Space.jpg" alt="">
-                    <div class="left_news_info">
-                        <h2>
-                            Music News
-                        </h2>
-                        <p>
-                            Jack White Threatens Donald Trump Campaign With Lawsuit: ‘Don’t Even Think About Using My
-                            Music’
-                        </p>
-                    </div>
-                </div>
-            </aside>
-            <!-- main news -->
-            <section class="content content_two">
-                <div class="main_img">
-                    <img src="./img/Body Image/SZA SOS Album.jpg" alt="">
-                    <div class="main_info">
-                        <h2>ABOUT ARTIST</h2>
-                        <p>
-                            Solána Imani Rowe (born November 8, 1990), better known by her stage name SZA, is a
-                            singer-songwriter. Rowe was born in St. Louis, Missouri but raised in Maplewood, New Jersey.
-                            She released her self-released debut EP, See.SZA.Run in October 2012. </p>
-                    </div>
-                </div>
-            </section>
-            <!-- Right news -->
-            <aside class="content content_three">
-                <h2>Latest News</h2>
-                <h4><a href="#">VIEW MORE</a></h4>
-                <div class="more_news">
-                    <p><a href="#">Luis Fonsi Returns to No. 1 on Latin Pop Airplay With Carlos Vives Collab ‘Santa
-                            Marta’</a></p>
-                    <p>4 mins ago</p>
-                </div>
-                <hr>
-                <div class="more_news">
-                    <p><a href="#">Luis Fonsi Returns to No. 1 on Latin Pop Airplay With Carlos Vives Collab ‘Santa
-                            Marta’</a></p>
-                    <p>4 mins ago</p>
-                </div>
-                <hr>
-                <div class="more_news">
-                    <p><a href="#">Luis Fonsi Returns to No. 1 on Latin Pop Airplay With Carlos Vives Collab ‘Santa
-                            Marta’</a></p>
-                    <p>4 mins ago</p>
-                </div>
-                <hr>
-                <div class="more_news">
-                    <p><a href="#">Luis Fonsi Returns to No. 1 on Latin Pop Airplay With Carlos Vives Collab ‘Santa
-                            Marta’</a></p>
-                    <p>4 mins ago</p>
-                </div>
-                <hr>
-                <div class="more_news">
-                    <p><a href="#">Luis Fonsi Returns to No. 1 on Latin Pop Airplay With Carlos Vives Collab ‘Santa
-                            Marta’</a></p>
-                    <p>4 mins ago</p>
-                </div>
-            </aside>
-            <!-- Music charts -->
-            <section class="content content_four">
-                <div class="chart_heading">
-                    <h1>SPANKING TOP 100</h1>
-                    <p>WEEK OF OCTOBER 2021</p>
-                </div>
+    <!-- header section ends -->
 
-                <div class="chart_container">
-                    <div class="charts"><img src="./img/Profile Pictures/SZA.jpg" alt="">
-                        <h2>1</h2>
-                        <p>Snooze</p>
-                        <p>SZA</p>
-                    </div>
-                    <div class="charts"><img src="./img/Profile Pictures/Wizkid.jpg" alt="">
-                        <h2>2</h2>
-                        <p>Bad To Me</p>
-                        <p>Wizkid</p>
-                    </div>
-                    <div class="charts"><img src="./img/Profile Pictures/Drake.jpg" alt="">
-                        <h2>3</h2>
-                        <p>One Dance </p>
-                        <p>Drake</p>
-                    </div>
-                    <div class="charts"><img src="./img/Profile Pictures/Dave.jpg" alt="">
-                        <h2>4</h2>
-                        <p>Dave</p>
-                        <p>Professor X</p>
-                    </div>
-                    <div class="charts"><img src="./img/Profile Pictures/Frank Ocean.jpg" alt="">
-                        <h2>5</h2>
-                        <p>Frank Ocean</p>
-                        <p>Pink + White</p>
-                    </div>
-                </div>
-                <div class="chart_more_option">
-                    <ul>
-                        <li>MoreLife 200</li>
-                        <li>Global 200</li>
-                        <li>MoreLife Artist 100</li>
-                        <li>Hot Trending</li>
-                    </ul>
-                </div>
-            </section>
-            <!-- editor picks -->
-            <section class="content content_five">
-                <h2>Editor Picks</h2>
-                <div class="content_five_flex">
-                    <div class="content_five_img">
-                        <img src="./img/Body Image/Jack Harlow.jpg" alt="">
-                        <div class="content_five_text">
-                            <h3>Jack Harlow</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa obcaecati rem, delectus
-                                explicabo sunt.</p>
-                        </div>
-                    </div>
-                    <div class="content_five_img">
-                        <img src="./img/Body Image/Jorja Smith.jpg" alt="">
-                        <div class="content_five_text">
-                            <h3>Jorja Smith</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa obcaecati rem, delectus
-                                explicabo sunt.</p>
-                        </div>
-                    </div>
-                    <div class="content_five_img">
-                        <img src="./img/Body Image/Rihanna.jpg" alt="">
-                        <div class="content_five_text">
-                            <h3>Rihanna</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa obcaecati rem, delectus
-                                explicabo sunt.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- trending -->
-            <aside class="content content_six">
-                <h2>Trending</h2>
-                <div class="trending_news">
-                    <h3>1.</h3>
-                    <div class="vertical"></div>
-                    <p><a href="#">Here’s the Full List of 2024 MTV VMAs Winners</a></p>
-                </div>
-                <hr>
-                <div class="trending_news">
-                    <h3>2.</h3>
-                    <div class="vertical"></div>
-                    <p><a href="#">Here’s the Full List of 2024 MTV VMAs Winners</a></p>
-                </div>
-                <hr>
-                <div class="trending_news">
-                    <h3>3.</h3>
-                    <div class="vertical"></div>
-                    <p><a href="#">Kim Porter Book Becomes an Amazon Bestseller Amid Diddy’s Arrest, But Kids Say It’s ‘Untrue’ — UPDATE</a></p>
-                </div>
-                <hr>
-                <div class="trending_news">
-                    <h3>4.</h3>
-                    <div class="vertical"></div>
-                    <p><a href="#">Here’s the Full List of 2024 MTV VMAs Winners’</a></p>
-                </div>
-                <hr>
-                <div class="trending_news">
-                    <h3>5.</h3>
-                    <div class="vertical"></div>
-                    <p><a href="#">
-					Lance Bass Says He Overheard Diddy Telling Justin Timberlake To Bail on *NSYNC: ‘You Need to Drop These&nbsp;Effers!’
-                        </a></p>
-                </div>
-            </aside>
-        </section>
-        <!-- <video src="" controls autoplay ></video> -->
-    </main>
-    <main class="sectionTwo">
-        <h2>Video</h2>
-        <section class="video">
-            <div class="videoOne">
-                <img src="./img/Body Image/SZA SOS Album.jpg" alt="">
-                <div class="videoOneText">
-                    <h2>Popular On MoreLife</h2>
-                    <p>Solána Imani Rowe (born November 8, 1990), better known by her stage name SZA, is a
-                    singer-songwriter...</p>
+    <!-- Main contents starts -->
+    <main class="main-top">
+        <!-- left news -->
+        <aside class="left_news">
+            <div class="left_news_img">
+                <img src="./img/Body Image/Space.jpg" alt="">
+                <div class="left_news_info">
+                    <h2>
+                        Chart Beat
+                    </h2>
+                    <p>
+                        Coldplay Tops July Boxscore Report As Tour Surpasses $1 Billion in Grosses
+                    </p>
                 </div>
             </div>
-            <div class="verticalTwo"></div>
-            <div class="videoTwo">
-                <div class="videoTwoNews">
+            <div class="left_news_img">
+                <img width="200px" src="./img/Body Image/Space.jpg" alt="">
+                <div class="left_news_info">
+                    <h2>
+                        Music News
+                    </h2>
+                    <p>
+                        Jack White Threatens Donald Trump Campaign With Lawsuit: ‘Don’t Even Think About Using My
+                        Music’
+                    </p>
+                </div>
+            </div>
+        </aside>
+
+
+        <!-- main news -->
+
+        <section class="main_news">
+            <img src="./img/Body Image/SZA SOS Album.jpg" alt="">
+            <div class="main_info">
+                <h2>ABOUT ARTIST</h2>
+                <p>
+                    Solána Imani Rowe (born November 8, 1990), better known by her stage name SZA, is a
+                    singer-songwriter. Rowe was born in St. Louis, Missouri but raised in Maplewood, New Jersey.
+                    She released her self-released debut EP, See.SZA.Run in October 2012. </p>
+            </div>
+        </section>
+        <!-- Right news -->
+        <aside class="right_news">
+            <h2>Latest News</h2>
+            <h4><a href="#">VIEW MORE</a></h4>
+            <div class="more_news">
+                <p><a href="#">Luis Fonsi Returns to No. 1 on Latin Pop Airplay With Carlos Vives Collab ‘Santa
+                        Marta’</a></p>
+                <p>4 mins ago</p>
+            </div>
+            <hr>
+            <div class="more_news">
+                <p><a href="#">Luis Fonsi Returns to No. 1 on Latin Pop Airplay With Carlos Vives Collab ‘Santa
+                        Marta’</a></p>
+                <p>4 mins ago</p>
+            </div>
+            <hr>
+            <div class="more_news">
+                <p><a href="#">Luis Fonsi Returns to No. 1 on Latin Pop Airplay With Carlos Vives Collab ‘Santa
+                        Marta’</a></p>
+                <p>4 mins ago</p>
+            </div>
+            <hr>
+            <div class="more_news">
+                <p><a href="#">Luis Fonsi Returns to No. 1 on Latin Pop Airplay With Carlos Vives Collab ‘Santa
+                        Marta’</a></p>
+                <p>4 mins ago</p>
+            </div>
+            <hr>
+            <div class="more_news">
+                <p><a href="#">Luis Fonsi Returns to No. 1 on Latin Pop Airplay With Carlos Vives Collab ‘Santa
+                        Marta’</a></p>
+                <p>4 mins ago</p>
+            </div>
+        </aside>
+    </main>
+
+    <main class="main-middle">
+        <section id="charts" class="chart">
+            <div class="chart_heading">
+                <h1>SPANKING TOP 100</h1>
+                <p>WEEK OF OCTOBER 2021</p>
+            </div>
+
+            <div class="chart_container">
+                <div class="charts"><img src="./img/Profile Pictures/SZA.jpg" alt="">
+                    <h2>1</h2>
+                    <p>Snooze</p>
+                    <p>SZA</p>
+                </div>
+                <div class="charts"><img src="./img/Profile Pictures/Wizkid.jpg" alt="">
+                    <h2>2</h2>
+                    <p>Bad To Me</p>
+                    <p>Wizkid</p>
+                </div>
+                <div class="charts"><img src="./img/Profile Pictures/Drake.jpg" alt="">
+                    <h2>3</h2>
+                    <p>One Dance </p>
+                    <p>Drake</p>
+                </div>
+                <div class="charts"><img src="./img/Profile Pictures/Dave.jpg" alt="">
+                    <h2>4</h2>
+                    <p>Dave</p>
+                    <p>Professor X</p>
+                </div>
+                <div class="charts"><img src="./img/Profile Pictures/Frank Ocean.jpg" alt="">
+                    <h2>5</h2>
+                    <p>Frank Ocean</p>
+                    <p>Pink + White</p>
+                </div>
+            </div>
+            <div class="chart_more_option">
+                <ul>
+                    <li>MoreLife 200</li>
+                    <li>Global 200</li>
+                    <li>MoreLife Artist 100</li>
+                    <li>Hot Trending</li>
+                </ul>
+            </div>
+        </section>
+
+        <aside class="trending">
+            <h2>Trending</h2>
+            <div class="trending_news">
+                <h3>1.</h3>
+                <p><a href="#">Here’s the Full List of 2024 MTV VMAs Winners</a></p>
+            </div>
+            <hr>
+            <div class="trending_news">
+                <h3>2.</h3>
+
+                <p><a href="#">Here’s the Full List of 2024 MTV VMAs Winners</a></p>
+            </div>
+            <hr>
+            <div class="trending_news">
+                <h3>3.</h3>
+
+                <p><a href="#">Kim Porter Book Becomes an Amazon Bestseller Amid Diddy’s Arrest, But Kids Say It’s
+                        ‘Untrue’ — UPDATE</a></p>
+            </div>
+            <hr>
+            <div class="trending_news">
+                <h3>4.</h3>
+
+                <p><a href="#">Here’s the Full List of 2024 MTV VMAs Winners’</a></p>
+            </div>
+            <hr>
+            <div class="trending_news">
+                <h3>5.</h3>
+
+                <p><a href="#">
+                        Lance Bass Says He Overheard Diddy Telling Justin Timberlake To Bail on *NSYNC: ‘You Need to
+                        Drop These&nbsp;Effers!’
+                    </a></p>
+            </div>
+        </aside>
+    </main>
+    <!-- Music charts Section ends-->
+
+    <!-- Editor picks section starts-->
+    <!-- <section id="music" class="content content_five">
+        <h2>Editor Picks</h2>
+        <div class="content_five_flex">
+            <div class="content_five_img">
+                <img src="./img/Body Image/Jack Harlow.jpg" alt="">
+                <div class="content_five_text">
+                    <h3>Jack Harlow</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa obcaecati rem, delectus
+                        explicabo sunt.</p>
+                </div>
+            </div>
+            <div class="content_five_img">
+                <img src="./img/Body Image/Jorja Smith.jpg" alt="">
+                <div class="content_five_text">
+                    <h3>Jorja Smith</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa obcaecati rem, delectus
+                        explicabo sunt.</p>
+                </div>
+            </div>
+            <div class="content_five_img">
+                <img src="./img/Body Image/Rihanna.jpg" alt="">
+                <div class="content_five_text">
+                    <h3>Rihanna</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa obcaecati rem, delectus
+                        explicabo sunt.</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- Editor picks section starts-->
+
+    <!-- trending section starts -->
+    <!-- left trending news -->
+
+
+    <!-- Music charts Section starts-->
+
+    <!-- trending section starts -->
+
+    <!-- <video src="" controls autoplay ></video> -->
+
+
+    <!-- Video section starts -->
+    <!-- <section id="video" class="sectionTwo">
+            <h2>Video</h2>
+            <div class="video">
+                <div class="videoOne">
                     <img src="./img/Body Image/SZA SOS Album.jpg" alt="">
-                    <div class="videoTwoText">
-                        <p>Luis R Conriquex Explosive Rise to Fame: The Men Behind Corridos Belicos | Billboard Cover
-                        </p>
+                    <div class="videoOneText">
+                        <h2>Popular On MoreLife</h2>
+                        <p>Solána Imani Rowe (born November 8, 1990), better known by her stage name SZA, is a
+                            singer-songwriter...</p>
                     </div>
                 </div>
-                <div class="videoTwoNews">
-                    <img src="./img/Body Image/Space.jpg" alt="">
-                    <div>
-                        <p>Luis R Conriquex Explosive Rise to Fame: The Men Behind Corridos Belicos | Billboard Cover
-                        </p>
+                <div class="verticalTwo"></div>
+                <div class="videoTwo">
+                    <div class="videoTwoNews">
+                        <img src="./img/Body Image/SZA SOS Album.jpg" alt="">
+                        <div class="videoTwoText">
+                            <p>Luis R Conriquex Explosive Rise to Fame: The Men Behind Corridos Belicos | Billboard
+                                Cover
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="videoTwoNews">
-                    <img src="./img/Body Image/Dollar .jpg" alt="">
-                    <div>
-                        <p>Luis R Conriquex Explosive Rise to Fame: The Men Behind Corridos Belicos | Billboard Cover
-                        </p>
+                    <div class="videoTwoNews">
+                        <img src="./img/Body Image/Space.jpg" alt="">
+                        <div>
+                            <p>Luis R Conriquex Explosive Rise to Fame: The Men Behind Corridos Belicos | Billboard
+                                Cover
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="videoTwoNews">
-                    <img src="./img/Body Image/JJK.jpg" alt="">
-                    <div>
-                        <p>Luis R Conriquex Explosive Rise to Fame: The Men Behind Corridos Belicos | Billboard Cover
-                        </p>
+                    <div class="videoTwoNews">
+                        <img src="./img/Body Image/Dollar .jpg" alt="">
+                        <div>
+                            <p>Luis R Conriquex Explosive Rise to Fame: The Men Behind Corridos Belicos | Billboard
+                                Cover
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="videoTwoNews">
-                    <img src="./img/Body Image/Rick And Morty.jpg" alt="">
-                    <div>
-                        <p>Luis R Conriquex Explosive Rise to Fame: The Men Behind Corridos Belicos | Billboard Cover
-                        </p>
+                    <div class="videoTwoNews">
+                        <img src="./img/Body Image/JJK.jpg" alt="">
+                        <div>
+                            <p>Luis R Conriquex Explosive Rise to Fame: The Men Behind Corridos Belicos | Billboard
+                                Cover
+                            </p>
+                        </div>
+                    </div>
+                    <div class="videoTwoNews">
+                        <img src="./img/Body Image/Rick And Morty.jpg" alt="">
+                        <div>
+                            <p>Luis R Conriquex Explosive Rise to Fame: The Men Behind Corridos Belicos | Billboard
+                                Cover
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-    </main>
-    <main>
-        <section class="sectionThree">
+        </section> -->
+
+    <!-- Video section ends -->
+
+    <!-- Artist section starts -->
+    <!-- <section class="sectionThree">
             <div class="sectionThreeNews">
                 <img src="./img/Body Image/Lil Nas X.jpg" alt="">
                 <div class="content_five_text">
@@ -346,9 +381,10 @@
                         explicabo sunt.</p>
                 </div>
             </div>
-        </section>
-    </main>
-    <script src="index.js"></script>
+        </section> -->
+
+    <!-- Artist section ends -->
+    <script src="script.js"></script>
 </body>
 
 </html>
